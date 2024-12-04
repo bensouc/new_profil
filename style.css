@@ -1,0 +1,32 @@
+/* Write some CSS below */
+@font-face {
+    font-family: 'CreativeOverTrial';
+    src: url('fonts/creative_over_trial.otf') format('opentype');
+  }
+
+  body {
+    font-family: Chivo, sans-serif;
+  }
+
+  h1{
+    font-family:  'CreativeOverTrial', sans-serif
+  }
+  p {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .my-class-car{
+    color:rgb(126, 67, 30);
+    font-size: 3rem;
+  }
+
+  .logo{
+    width: 100px;
+    height: 100px;
+  }
+  .mon-logo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
